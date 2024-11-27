@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88deb18217f04827aae202db1e831420, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 4541023640729109021, guid: 723e43259fb006642b7c9fe352e217de, type: 3}
+  emenyPrefab: {fileID: 2445372080055305703, guid: e41076b58a25c054c83133fa16f7ad4c, type: 3}
+  playerAttackInterval: 1
+  playerDamage: 1
+  playerHealth: 10
+  minEnemySpawnDelay: 1
+  maxEnemySpawnDelay: 1
+  enemiesToWin: 4
+  enemyMoveSpeed: 1
+  enemyHealth: 2
+  distanceForKillPlayer: 0.5
+  goldPerEnemy: 1
